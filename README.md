@@ -63,17 +63,36 @@ Y= A⊕B
 
 
 **PROGRAM**
-
+```
+module EX1(a,b,f1,f2,,f3,f4,f5,f6,f7);
+input a,b;
+output f1,f2,f3,f4,f5,f6,f7;
+assign f1=a&b;
+assign f2=a|b;
+assign f3=~a;
+assign f4=~f1;
+assign f5=~f2;
+assign f6=a^b;
+assign f7=~(a^b);
+endmodule
+```
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
- Developed by: RegisterNumber: 
+ Developed by: LOKESH M<br> RegisterNumber:24900227 
  
 **Logic symbol & Truthtable**
+![WhatsApp Image 2024-12-04 at 21 34 58_e491ba50](https://github.com/user-attachments/assets/04c5cad4-e99d-4ebe-8826-f3824fa49151)
+
 
 **RTL realization Output:** 
+![Screenshot 2024-12-04 212452](https://github.com/user-attachments/assets/8befc572-da07-4b10-84f8-d10b5ac3894f)
 
-**RTL**
+
+time wave form
+![Screenshot 2024-12-04 210919](https://github.com/user-attachments/assets/c1001c82-3ed1-4395-a0ce-a364a7df0227)
+
 
 **Result:**
+ The basic logic gates are studied are truh tables are verified.
 
 
